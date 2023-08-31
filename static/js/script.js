@@ -11,9 +11,9 @@ var LANGUAGES = {
             "page-title": "Cún cùn cun cun hahaha",
             "doc-title": "Kuru Kuru~",
             "page-descriptions": "Cún cùn cun cun hahaha Cún cùn cun cun hahahaCún cùn cun cun hahahaCún cùn cun cun hahahaCún cùn cun cun hahaha.",
-            "counter-descriptions": ["Số lần đã cún cùn cun cun ", "Herta has been kuru~ed for"],
+            "counter-descriptions": ["Số lần đã cún cùn cun cun ", "CÙn cun cun số lần đã:"],
             "counter-unit": "lần",
-            "counter-button": ["Squish the kuru~!", "Kuru kuru~!"],
+            "counter-button": ["Cun Cùn", "Cún cùn"],
             "access-via-pages": "You're currently accessing via GitHub Pages. For users in China (Mainland) or some other regions, click <a href='https://herta.ft2.ltd/'>here to access the mirror on Netlify</a>. ",
             "access-via-mirror": "Congratulations! You are using a mirror site, which should speed up access within China (Mainland) and some regions. Click here to <a href='https://duiqt.github.io/herta_kuru/'>visit the source site on GitHub Pages</a>.",
             "show-credits-text": "Show Credits",
@@ -34,7 +34,7 @@ var LANGUAGES = {
             "CREDITS:localization:Indonesian": "Indonesian Localization Contributor",
             "CREDITS:inspiration": "Inspiration"
         },
-        cardImage: "img/card_en.jpg"
+        cardImage: "img/cun1.jpg"
     }, "cn": {
         audioList: [
             "audio/cn/gululu.mp3",
