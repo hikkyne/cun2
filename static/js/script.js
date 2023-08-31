@@ -8,12 +8,12 @@ var LANGUAGES = {
             "audio/en/en_3.mp3"
         ],
         texts: {
-            "page-title": "Cún cùn cun cun hahaha",
-            "doc-title": "Kuru Kuru~",
-            "page-descriptions": "Cún cùn cun cun hahaha Cún cùn cun cun hahahaCún cùn cun cun hahahaCún cùn cun cun hahahaCún cùn cun cun hahaha.",
-            "counter-descriptions": ["Số lần đã cún cùn cun cun ", "CÙn cun cun số lần đã:"],
+            "page-title": "Tiều ò ó ò o o hahaha",
+            "doc-title": "Tiều ò ó ò o o",
+            "page-descriptions": "Tiều ò ó ò o o Tiều ò ó ò o o Tiều ò ó ò o oTiều ò ó ò o o.",
+            "counter-descriptions": ["Số lần đã Tiều ò ó ò o o ", "Tiều ò ó ò o o số lần đã:"],
             "counter-unit": "lần",
-            "counter-button": ["Cun Cùn", "Cún cùn"],
+            "counter-button": ["Tiều ò ó ò o o", "Tiều ò ó ò o o"],
             "access-via-pages": "You're currently accessing via GitHub Pages. For users in China (Mainland) or some other regions, click <a href='https://herta.ft2.ltd/'>here to access the mirror on Netlify</a>. ",
             "access-via-mirror": "Congratulations! You are using a mirror site, which should speed up access within China (Mainland) and some regions. Click here to <a href='https://duiqt.github.io/herta_kuru/'>visit the source site on GitHub Pages</a>.",
             "show-credits-text": "Show Credits",
@@ -34,7 +34,7 @@ var LANGUAGES = {
             "CREDITS:localization:Indonesian": "Indonesian Localization Contributor",
             "CREDITS:inspiration": "Inspiration"
         },
-        cardImage: "img/cun1.jpg"
+        cardImage: "img/quyen1.jpg"
     }, "cn": {
         audioList: [
             "audio/cn/gululu.mp3",
@@ -429,7 +429,10 @@ const progress = [0, 1];
     cacheStaticObj("img/cun2.jpg");
     cacheStaticObj("img/cun3.jpg");
     cacheStaticObj("img/cun4.jpg");
-
+    cacheStaticObj("img/quyen1.jpg");
+    cacheStaticObj("img/quyen2.jpg");
+    cacheStaticObj("img/quyen3.jpg");
+    cacheStaticObj("img/quyen4.jpg");
     // Define a function that takes an array as an argument and returns a random item from the array
     function randomChoice(myArr) {
         const randomIndex = Math.floor(Math.random() * myArr.length);
@@ -477,7 +480,7 @@ const progress = [0, 1];
         const random = Math.floor(Math.random() * 4) + 1;
         const elem = document.createElement("img");
         let RunSpeed = Math.floor(current_speed);
-        elem.src = cacheStaticObj(`img/cun${random}.jpg`);
+        elem.src = cacheStaticObj(`img/quyen${random}.jpg`);
         elem.style.position = "absolute";
         elem.style.height = "400px";
         elem.style.right = "-500px";
